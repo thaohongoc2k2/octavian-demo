@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Portfolio </title>
+  <link rel="stylesheet" href="index.css">
+	<link rel="icon" href="logo.jpg" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/cb8f931045.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+<div class="header">
+  <div class="navbar noborder">
+	<div class="navbar wid"> 
+      <p class="logo"> <a href="index.html">PORTFOLIO</a> </p>
+	  <ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutme.html">About me</a></li>
+			<li>
+			  <a>Portfolio</a>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+			<li class="search-box">
+				  <input class="search-input white" placeholder="Seach">
+				  <a class="search-btn" href=""> <i class="fas fa-search"></i> </a>
+			  </li>
+		  </ul>	
+	</div>	
+  	</div>
+	<div class="container">
+			<div class="wrapper-img">
+					<img class="image" src="vangogh.jpg"/>
+
+			</div>
+		<div class="tester"></div>
+		<div class="blocks">
+				<div class="block-1 block">Hey!</div>
+				<div class="block-2 block">I'm </div>
+				<div class="block-3 block">Ngọc</div>
+				<div class="block-4 block">Thảo</div>
+			</div>
+			
+		</div>
+</div>
+<section id="About">
+	<div class="title"> <span class="dec-text" data-aos="fade-up"></span> <span class="maintitle" data-aos="fade-up"> ABOUT ME</span> 
+	</div>
+  <div class="aboutme" data-aos="fade-up">
+		<div class="image-avatar" >
+ 				<img src="hinh123.jpg">
+ 				
+ 		</div>
+	<p class="contenttext"> My name is Ngoc Thao. I am living in Ho Chi Minh city and am a student at Arena Multimedia school, my major is Graphic Design. I am a cheerful, sociable and dynamic person. In my free time, I often read the news, watch movies and listen to music to relax. </p>
+	</div>
+
+</section>
+<section id="sec2">
+	<div class="title" data-aos="flip-up" data-aos-duration="1000"> <span class="dec-text"></span> <span class="maintitle"> HAND DRAWING </span></div>
+  <div class="sec2-img"> 
+		<div class="s2-item"></div>
+		<div class="s2-item"></div>
+		<div class="s2-item"></div>
+		<div class="s2-item"></div>
+	</div>
+</section>
+<section id="sec3">
+  <div class="title" data-aos="flip-up" data-aos-duration="1000"> <span class="dec-text"></span> <span class="maintitle"> ARTWORK </span> <div class="animateline"> <span> </span></div></div>
+		<div class="artwork">
+			<div class="card">
+				<h1>SEM 1</h1>
+				<img src="COTA.jpg">
+				<p>Brand Identity Unique art toy<br>work created by the creative minds of COTA</p>
+			</div>
+			<div class="card">
+				<h1>GRAPHIC DESIGN</h1>
+								<img src="illustration.png">
+
+				<p>First term exercises</p>
+			</div>
+
+			
+	</div>
+	
+</section>
+<div class="footer">
+	<h1>CONTACT US</h1>
+		<from class="contact-from" action="index.html" method="post">
+	<input type="text" class="contact-from-text" placeholder="Name">
+			<input type="email" class="contact-from-text" placeholder=" Mail">
+	<input type="text" class="contact-from-text" placeholder="Phone">
+			<textarea class="contact-from-text" placeholder="Massage"></textarea>
+	<input type="submit" class="contact-from-btn" value="SEND A MASSAGE">
+	
+	</from>	
+	
+	</div>
+	<div class="contact">
+		<div class="info">
+			<a href="https://www.behance.net/ngocthao659d13" target="new" class="card1">
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-behance fa-stack-1x fa-inverse" style="color:#092720;"></i>
+			</span>
+			</a>
+			<a href="https://www.instagram.com/hongoc.thao/?hl=en" target="new" class="card1">
+
+              <span class="fa-stack fa-lg">
+
+                     <i class="fa fa-instagram fa-stack-1x fa-inverse" style="color:#092720;"></i>
+
+              </span>
+			</a>
+			<a href="https://www.facebook.com/profile.php?id=100048219164817" target="new" class="card1">
+
+			<span class="fa-stack fa-lg">
+
+                     <i class="fa fa-facebook fa-stack-1x fa-inverse" style="color:#092720;"></i>
+			</span>
+				</a>	
+		</div>
+	<div class="gmail">
+			<p>ngocthao65195@gmail.com</p>
+			</div>
+		
+	
+	
+<script>
+
+<script>
+ AOS.init();
+</script>	
+<script>
+			TweenMax.to(".block-1", 2, {
+				x: "-50",
+				y: "-280",
+				scale: "0.9",
+				ease: Expo.easeInOut,
+			});
+
+			TweenMax.to(".block-2", 2, {
+				x: "-180",
+				y: "250",
+				scale: "0.7",
+				ease: Expo.easeInOut,
+			});
+
+			TweenMax.to(".block-3", 2, {
+				x: "220",
+				y: "-300",
+				scale: "0.7",
+				ease: Expo.easeInOut,
+			});
+			TweenMax.to(".block-4", 2, {
+				x: "-30",
+				y: "200",
+				scale: "0.9",
+				ease: Expo.easeInOut,
+			});
+
+			TweenMax.from(".tester-shape", 2.4, {
+				scale: "0",
+				ease: Expo.easeInOut,
+			});
+			
+			TweenMax.from(".navbar > div", 1.6, {
+				opacity: 0,
+				y: 60,
+				ease: Expo.easeInOut,
+				delay: 0.6,
+			});
+			
+			TweenMax.from(".site-logo", 1.6, {
+				opacity: 0,
+				y: 40,
+				ease: Expo.easeInOut,
+				delay: 0.6,
+			});
+			
+		</script>	
+	<script>
+            var cursor = $(".cursor"),
+                follower = $(".cursor-follower");
+
+            var posX = 0,
+                posY = 0,
+                mouseX = 0,
+                mouseY = 0;
+
+            TweenMax.to({}, 0.016, {
+                repeat: -1,
+                onRepeat: function() {
+                    posX += (mouseX - posX) / 9;
+                    posY += (mouseY - posY) / 9;
+
+                    TweenMax.set(follower, {
+                        css: {
+                            left: posX - 20,
+                            top: posY - 20
+                        }
+                    });
+
+                    TweenMax.set(cursor, {
+                        css: {
+                            left: mouseX,
+                            top: mouseY
+                        }
+                    });
+                }
+            });
+
+            $(document).on("mousemove", function(e) {
+                mouseX = e.pageX;
+                mouseY = e.pageY;
+            });
+
+            $(".portfolio-item img").on("mouseenter", function() {
+                cursor.addClass("active");
+                follower.addClass("active");
+            });
+
+            $(".portfolio-item img").on("mouseleave", function() {
+                cursor.removeClass("active");
+                follower.removeClass("active");
+            });
+        </script>
+</body>
+</html>
